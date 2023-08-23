@@ -56,6 +56,7 @@ func main() {
 func getBasicManagers() []module.BasicManager {
 	return []module.BasicManager{
 		simapp.ModuleBasics,
+		// volitiumapp.ModuleBasics,
 	}
 }
 
