@@ -13,6 +13,7 @@ require (
 	github.com/forbole/juno/v5 v5.2.0
 	github.com/go-co-op/gocron v1.28.3
 	github.com/golangci/golangci-lint v1.52.2
+	github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.9
 	github.com/pelletier/go-toml v1.9.5
@@ -329,6 +330,8 @@ replace (
 	github.com/cosmos/ledger-cosmos-go => github.com/desmos-labs/ledger-desmos-go v0.12.1-desmos
 	github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.8.1
+
+	github.com/ipgit2860/vcoa => github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 
 )

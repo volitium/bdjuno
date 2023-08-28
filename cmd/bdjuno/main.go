@@ -16,6 +16,8 @@ import (
 
 	"github.com/forbole/bdjuno/v4/database"
 	"github.com/forbole/bdjuno/v4/modules"
+
+	vcoaApp "github.com/ipgit2860/vcoa/app"
 )
 
 func main() {
@@ -55,6 +57,7 @@ func main() {
 func getBasicManagers() []module.BasicManager {
 	return []module.BasicManager{
 		desmosapp.ModuleBasics,
+		vcoaApp.ModuleBasics,
 	}
 }
 
