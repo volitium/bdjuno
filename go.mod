@@ -13,7 +13,7 @@ require (
 	github.com/forbole/juno/v5 v5.2.0
 	github.com/go-co-op/gocron v1.28.3
 	github.com/golangci/golangci-lint v1.52.2
-	github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
+	// github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.9
 	github.com/pelletier/go-toml v1.9.5
@@ -179,6 +179,7 @@ require (
 	github.com/huandu/skiplist v1.2.0 // indirect
 	github.com/improbable-eng/grpc-web v0.15.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	// github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36 // indirect
 	github.com/jgautheron/goconst v1.5.1 // indirect
 	github.com/jingyugao/rowserrcheck v1.1.1 // indirect
 	github.com/jirfag/go-printf-func-name v0.0.0-20200119135958-7558a9eaa5af // indirect
@@ -317,6 +318,12 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
+require github.com/ipgit2860/vcoa v0.0.0-20230829072758-70686a682b96
+
+// require github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36 // indirect
+
+// require github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
+
 replace (
 	cosmossdk.io/api => cosmossdk.io/api v0.3.1
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
@@ -331,7 +338,7 @@ replace (
 	github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.8.1
 
-	github.com/ipgit2860/vcoa => github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
+	// github.com/ipgit2860/vcoa => github.com/ipgit2860/vcoa v0.0.0-20230828153653-b570fcfb9d36
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 
 )
